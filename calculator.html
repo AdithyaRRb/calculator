@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="calc.css" type="text/css" rel="stylesheet">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="calc">
+            <div id="display">
+                <input type="text" id="screen" placeholder="0">
+            </div>
+            <div class="row">
+                <button onclick="clrscreen()" id="btn">C</button>
+                <button onclick="backscr()" id="btn"><</button>
+                <button onclick="btnclick('%')" id="btn">%</button>
+                <button onclick="btnclick('/')" id="btn">/</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick('7')" id="btn">7</button>
+                <button onclick="btnclick('8')" id="btn">8</button>
+                <button onclick="btnclick('9')" id="btn">9</button>
+                <button onclick="btnclick('*')" id="btn">x</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick('4')" id="btn">4</button>
+                <button onclick="btnclick('5')" id="btn">5</button>
+                <button onclick="btnclick('6')" id="btn">6</button>
+                <button onclick="btnclick('-')" id="btn">-</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick('1')" id="btn">1</button>
+                <button onclick="btnclick('2')" id="btn">2</button>
+                <button onclick="btnclick('3')" id="btn">3</button>
+                <button onclick="btnclick('+')" id="btn">+</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick('0')" id="btn0">0</button>
+                <button onclick="btnclick('.')" id="btn1">.</button>
+                <button onclick="btnequal()" id="btn2">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
